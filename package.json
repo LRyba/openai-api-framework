@@ -1,0 +1,22 @@
+{
+  "name": "api-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/src/index.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.9.0",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.1.33",
+    "openai": "^4.38.2",
+    "typescript": "^5.4.5"
+  }
+}
